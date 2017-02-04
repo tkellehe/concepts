@@ -11,3 +11,19 @@ Example concept:
             // that to the next undefined variable if all are used it will write over the first.
             
 Has the set of characters `abcdefghijklmn` (14 chars) as variables that can be used.
+
+```
+ƙɱ:1]a // Get the ith fib.
+ƙ      // Get A[ı-2]
+ ɱ     // Get A[ı-1] (implicit add)
+  :1]  // Everything to the left is used to generate list starting with 1.
+     a // Access the list based on user provided value.
+```
+
+##Encoding
+
+```
+ð¬¶¤ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.!?,0123456789:;"'_<=>*+-/\@#$%&^|()[]{}`~
+ẠḄḌẸḤỊḲḶṂṆỌṚṢṬỤṾẈỴẒȦḂĊḊĖḞĠḢİĿṀṄȮṖṘṠṪẆẊẎŻạḅḍẹḥịḳḷṃṇọṛṣṭụṿẉỵẓȧḃċḋėḟġḣŀṁṅȯṗṙṡṫẇẋẏżƁƇƊƑƓƘƝƤƬƲȤɓƈɗƒɠɦƙɱ
+ɲƥʠɼʂƭʋȥÆÇÐÑØŒÞßæçıȷñøœþ€¢£¥…µ¡¿×÷¦©®«»‘’“”°¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾
+```
