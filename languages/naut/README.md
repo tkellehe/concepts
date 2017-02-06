@@ -3,24 +3,38 @@
 A programming language designed around mathematical sequences. The language is imperative language with some extra spices.
 _Naut_ also has its own __8bit__ encoding creating its own code page.
 
-Some concepts:
-
-    abc+=   // Sum the inputs a, b, and c then assign that to d.
-    abc+    // Logically means sum the given variables that are set to the inputs of that program.
-        =   // Assign a given result to a variable, since none is specified it will assign
-            // that to the next undefined variable if all are used it will write over the first.
+## Variables
             
-Has the set of characters `abcdefghijklmn` (14 chars) as variables that can be used.
+_Naut_ has the set of characters `abcdefghijklmn` (14 chars) as variables that can be used. The input
+to that particular function will automatically be assigned to the corresponding variable as long as it is less that 14.
+As in, the first input will be assigned to `a`, the second input assigned to `b`, and so on. A variable can either
+store a __list__ or a __value__.
 
 ```
-ƙɱ:1]a // Get the ith fib.
-ƙ      // Get A[ı-2]
- ɱ     // Get A[ı-1] (implicit add)
-  :1]  // Everything to the left is used to generate list starting with 1.
-     a // Access the list based on user provided value.
+ƙ+ɱ:1]a // Get the ith fib.
+ƙ       // Get A[ı-2]
+ +      // Add the left and right operands.
+  ɱ     // Get A[ı-1]
+   :1]  // Everything to the left is used to generate list starting with 1.
+      a // Access the list based on user provided value.
 ```
+
+## Lists and Values
+
+Has two data types, __lists__ and __values__. __Values__  are numerical objects that hold a real and imaginiary portion
+in which is stored as two fixed point values. __Lists__ are object that contain elements that are either
+__lists__ or __values__. Also, the __values__ are stored in the form of a base 2<sup>16</sup> number in order to be
+nicely converted to _UTF-8_ strings for displaying also allow for storing high precision values with a fixed error.
 
 ## Expressions
+
+An expression is a set of tokens evaluated as a single token in which either produces a list or value.
+
+```
+
+```
+
+Expressions can also have implied closing or opening parentheses.
 
 ```
 a^(b+c // a to the power of b + c.
@@ -31,6 +45,19 @@ a      // The first input into the function.
    b   // The second input into the function.
     +  // Add left and and right tokens.
      c // The third input into the function.
+```
+
+```
+a-b)*c // Multiply c by the difference of a and b.
+
+a-b)   // Calculate the difference.
+a      // Get the value of a.
+ -     // Subctract b from a.
+  b    // Get the value of b.
+   )   // Capture the tokens and evaluate as a single expresion.
+   
+    *  // Multiply left and right expressions.
+     c // Get the value of c.
 ```
 
 ## Functions
