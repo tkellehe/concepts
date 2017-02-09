@@ -99,7 +99,7 @@ These are repesented by the character set `ABCDEFGHIJKLMN`.
 // <- L | +5
 // <- M | +6
 // <- N v +7
-// Any extra here cannot be reached with the quick references therein @8 or @-8 would work for this line.
+// Any extra here cannot be reached with the quick references therein 8@ or -8@ would work for this line.
 // <- A ^ -7
 // <- B | -6
 // <- C | -5
