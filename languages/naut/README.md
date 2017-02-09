@@ -1,6 +1,6 @@
 # Naut
 
-A programming language designed around mathematical sequences. The language is imperative language with some extra spices.
+A programming language designed around mathematical sequences and like naught but golfed. The language is imperative language with some extra spices.
 _Naut_ also has its own __8bit__ encoding creating its own code page.
 
 ## Variables
