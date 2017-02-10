@@ -19,6 +19,9 @@ store a __list__ or a __value__.
       a // Access the list based on user provided value.
 ```
 
+_Naut_ provides a way to create your own variables through `$` similar to that of _PHP_ where the valid characters that can be used
+are the set of lowercase letters. If numbers follow directly after the dollar it will grab that input, for example `$0` implies `a`.
+
 ## Lists and Values
 
 Has two data types, __lists__ and __values__. __Values__  are numerical objects that hold a real and imaginiary portion
