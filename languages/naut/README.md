@@ -109,7 +109,7 @@ These are repesented by the character set `ABCDEFGHIJKLMN`.
 // <- G | -1
 ```
 
-Another way to access the function relatively is to use the `@` followed by an expression that evaluates to a number
+Another way to access the function relatively is to use the `@` preceded by an expression that evaluates to a number
 and will use the magnitude given that it is complex.
 
 ## Encoding
