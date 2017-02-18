@@ -71,7 +71,7 @@ Expressions come in many different flavors.
 #### Literals
 
 Placing the number `123` will evaluate to the real number `123` and is a literal for a __value__ type. Using `123ı345` evaluate to the complex number `123 + 345i`.
-__Lists__ can be created using the `{}` where opening or closing is not required as long as at least one exists. Each element in
+__Lists__ can be created using the `{}` where opening or closing is not required as long as at least one exists. Each element 
 is seperated using the `,` and each element merely needs to be an expression. Note that optimizations can occur if utilizing
 purely literals.
 
