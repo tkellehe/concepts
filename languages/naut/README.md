@@ -11,11 +11,11 @@ As in, the first input will be assigned to `a`, the second input assigned to `b`
 store a __list__ or a __value__.
 
 ```
-ƙ+ɱ:1]a // Get the ith fib.
-ƙ       // Get A[ı-2]
- +      // Add the left and right operands.
-  ɱ     // Get A[ı-1]
-   :1]  // Everything to the left is used to generate list starting with 1.
+1:ƙ+ɱ]a // Get the ith fib.
+  ƙ     // Get A[ı-2]
+   +    // Add the left and right operands.
+    ɱ   // Get A[ı-1]
+1:   ]  // Everything to the left is used to generate list starting with 1.
       a // Access the list based on user provided value.
 ```
 
