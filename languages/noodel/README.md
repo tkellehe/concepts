@@ -5,17 +5,34 @@ very well. So, I am going to attempt to redefine the language with more of an ac
 incorporate the language _Charcoal_ which does a fantistic job at turtle like ASCII art, but does not handle animations very well.
 _Noodel_ did well with animations, but if there was a complicated string of any sort it would fail.
 
+## Characters
+
+    ¶¤!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+    ẠḄḌẸḤỊḲḶṂṆỌṚṢṬỤṾẈỴẒạḅḍẹḥịḳḷṃṇọṛṣṭụṿẉỵẓ
+    ȦḂĊḊĖḞĠḢİĿṀṄȮṖṘṠṪẆẊẎŻȧḃċḋėḟġḣŀṁṅȯṗṙṡṫẇẋẏż
+    ƁƇƊƑƓƘƝƤƬƲȤɓƈɗƒɠɦƙɱɲƥʠɼʂƭʋȥ
+    ÆÇÑØŒÞßæçñøœþ
+    Ðıȷ
+    ¦©®
+    «»‘’“”
+    °¹²³⁴⁵⁶⁷⁸⁹
+    €¢£¥µ…¬¡¿×÷⁺⁻⁼⁽⁾
+    <space><newline>
+
 ## Data Types
 
- - __String__ : This is the only data type and is stored
- - __Number__ : All strings represent the 98 _printable_ characters, so numbers are 
+ - __String__ : This is the only data type and only stores the _printable_ characters.
+ - __Number__ : A mere interpretation of a string as a base 97 number.
+ - __Array__  : An array is affectively a single variable stack.
 
 ### String Compression
 
-## Loops
+## Loops and Functions
 
-## Stacks
+## Variable Stacks
 
 ## Ins and Outs
 
 ## Painting
+
+### Turtles
