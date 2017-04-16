@@ -1,4 +1,4 @@
-# Noodel
+# Newdel
 
 A language dedicated to code golfing ASCII Art and Animation. The current version of _Noodel_ does not handle string manipulation
 very well. So, I am going to attempt to redefine the language with more of an actual design. Just as some notes, I would like to
