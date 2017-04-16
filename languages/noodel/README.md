@@ -32,13 +32,12 @@ _Noodel_ did well with animations, but if there was a complicated string of any 
 
 ## Operators
 
- - `⁺` : Sum all input stacks and duplicate output into each output stack. 
+ - `⁺` : Sum all input stacks and duplicate output into each output stack.
 
 ### Variable Stacks
 
 The set `ƁƇƊƑƓƘƝƤƬƲȤ` represents a set of stacks that can be added to as an input stack or an output stack. The upper
-case is for adding as an input stack while the lower case is for adding as an output stack. The `Ȥ` represents the input
-stream while the `ȥ` represents the output stream.
+case is for adding as an input stack while the lower case is for adding as an output stack.
 
 ### Adding Ins and Outs
 
