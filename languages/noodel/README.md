@@ -30,12 +30,22 @@ _Noodel_ did well with animations, but if there was a complicated string of any 
 
 ### String Compression
 
+## Operators
+
+### Variable Stacks
+
+The set `ƁƇƊƑƓƘƝƤƬƲȤ` represents a set of stacks that can be added to as an input stack or an output stack. The upper
+case is for adding as an input stack while the lower case is for adding as an output stack. The `Ɓ` represents the input
+stream while the `ɓ` represents the output stream.
+
+### Adding Ins and Outs
+
+This is how operators figure out where to get inputs and where to place their outputs.
+
 ## Loops and Functions
-
-## Variable Stacks
-
-## Ins and Outs
 
 ## Painting
 
 ### Turtles
+
+### Paths
