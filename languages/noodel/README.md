@@ -7,6 +7,9 @@ _Noodel_ did well with animations, but if there was a complicated string of any 
 
 ## Data Types
 
+ - __String__ : This is the only data type and is stored
+ - __Number__ : All strings represent the 98 _printable_ characters, so numbers are 
+
 ### String Compression
 
 ## Loops
