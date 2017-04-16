@@ -7,17 +7,20 @@ _Noodel_ did well with animations, but if there was a complicated string of any 
 
 ## Characters
 
-    ¶¤!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-    ẠḄḌẸḤỊḲḶṂṆỌṚṢṬỤṾẈỴẒạḅḍẹḥịḳḷṃṇọṛṣṭụṿẉỵẓ
-    ȦḂĊḊĖḞĠḢİĿṀṄȮṖṘṠṪẆẊẎŻȧḃċḋėḟġḣŀṁṅȯṗṙṡṫẇẋẏż
-    ƁƇƊƑƓƘƝƤƬƲȤɓƈɗƒɠɦƙɱɲƥʠɼʂƭʋȥ
-    ÆÇÑØŒÞßæçñøœþ
-    Ðıȷ
-    ¦©®
+    <newline><space>!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+    ẠḄḌẸḤỊḲḶṂṆỌṚṢṬỤṾẈỴẒ
+    ạḅḍẹḥịḳḷṃṇọṛṣṭụṿẉỵẓ
+    ȦḂĊḊĖḞĠḢİĿṀṄȮṖṘṠṪẆẊẎŻ
+    ȧḃċḋėḟġḣŀṁṅȯṗṙṡṫẇẋẏż
+    ƁƇƊƑƓƘƝƤƬƲȤ
+    ɓƈɗƒɠƙɲƥƭʋȥ
+    ɦɱʠɼʂ
+    ÆÇÑØŒÞß
+    æçñøœþ
+    Ðıȷ¦©®
     «»‘’“”
     °¹²³⁴⁵⁶⁷⁸⁹
-    €¢£¥µ…¬¡¿×÷⁺⁻⁼⁽⁾
-    <space><newline>
+    ¶¤€¢£¥µ…¬¡¿×÷⁺⁻⁼⁽⁾
 
 ## Data Types
 
