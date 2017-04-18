@@ -15,9 +15,9 @@ _Noodel_ did well with animations, but if there was a complicated string of any 
     ƁƇƊƑƓƘƝƤƬƲȤ
     ɓƈɗƒɠƙɲƥƭʋȥ
     ɦɱʠɼʂ
-    ÆÇÑØŒÞß
+    ÆÇÑØŒÞ
     æçñøœþ
-    Ðıȷ¦©®
+    ßÐıȷ¦©®
     «»‘’“”
     °¹²³⁴⁵⁶⁷⁸⁹
     ¶¤€¢£¥µ…¬¡¿×÷⁺⁻⁼⁽⁾
