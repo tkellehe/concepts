@@ -7,7 +7,7 @@ _Noodel_ did well with animations, but if there was a complicated string of any 
 
 ## Characters
 
-    <newline><space>!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+    <newline><space>!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~¶
     ẠḄḌẸḤỊḲḶṂṆỌṚṢṬỤṾẈỴẒ
     ạḅḍẹḥịḳḷṃṇọṛṣṭụṿẉỵẓ
     ȦḂĊḊĖḞĠḢİĿṀṄȮṖṘṠṪẆẊẎŻ
@@ -20,7 +20,7 @@ _Noodel_ did well with animations, but if there was a complicated string of any 
     ßÐıȷ¦©®
     «»‘’“”
     °¹²³⁴⁵⁶⁷⁸⁹
-    ¶¤€¢£¥µ…¬¡¿×÷⁺⁻⁼⁽⁾
+    ¤€¢£¥µ…¬¡¿×÷⁺⁻⁼⁽⁾
 
 ## Data Types
 
