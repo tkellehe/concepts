@@ -25,7 +25,7 @@ _Noodel_ did well with animations, but if there was a complicated string of any 
 ## Data Types
 
  - __String__ : This is the only data type and only stores the _printable_ characters.
- - __Number__ : A mere interpretation of a string as a base 97 number where `¶` is a decimal.
+ - __Number__ : A mere interpretation of a string as a base 96 number where `¶` is a decimal.
  - __Array__  : An array is affectively a single variable stack.
 
 ### String Compression
