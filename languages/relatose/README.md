@@ -63,3 +63,18 @@ A library for creating data structures to assist with different memory models.
 ### Queue
 
 ### Deque
+
+## Types
+
+A library to assist recreational programming language with different types.
+
+### Any
+
+Represents the types `STRING`, `NUMBER`, and `ARRAY`. Where all of the operations that can be done will
+work with all of the different types.
+
+### String
+
+### Number
+
+### Array
