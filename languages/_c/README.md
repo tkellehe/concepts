@@ -46,7 +46,7 @@ typedef long long int intV;
 
 int main(void)
 {
-  intX a = -7;
+  intV a = -7;
   std::cout << a << std::endl;
   return 0;
 }
