@@ -57,11 +57,11 @@ Primitive types:
 Built in structures:
  
  * `ʂ` : A String type representing a `std::string` in _C++_ (type `st`).
- * `Ȥ` : A vector of `iv` objects (type `vi`).
- * `Ʋ` : A vector of `uv` objects (type `vu`).
- * `Ƒ` : A vector of `fv` objects (type `vf`).
- * `Ƈ` : A vector of `i8` objects (type `v8`).
- * `Ɓ` : A vector of `bl` objects (type `vb`).
+ * `Ȥ` : A vector of `iv` objects representing a `std::vector<iv>` in _C++_ (type `vi`).
+ * `Ʋ` : A vector of `uv` objects representing a `std::vector<uv>` in _C++_ (type `vu`).
+ * `Ƒ` : A vector of `fv` objects representing a `std::vector<fv>` in _C++_ (type `vf`).
+ * `Ƈ` : A vector of `i8` objects representing a `std::vector<i8>` in _C++_ (type `v8`).
+ * `Ɓ` : A vector of `bl` objects representing a `std::vector<bl>` in _C++_ (type `vb`).
 
 ## Declaring Variables
 
