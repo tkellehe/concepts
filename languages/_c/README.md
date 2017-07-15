@@ -26,6 +26,30 @@ int main(void)
 }
 ```
 
+## Declaring Variables
+
+In order to make __c_ closer code golfing, there are a preset number of variables.
+
+```
+ȥ-7ñ
+```
+
+The `ȥ` instantiates a new `intX` type which wilil be assigned the value following the token. The name of the variable
+is selected based off of the next available variable name. The `ñ` prints what is provided which since nothing is provided
+infers the most recent declared variable.
+
+```
+#include <iostream>
+typedef long long int intX;
+
+int main(void)
+{
+  intX a = -7;
+  std::cout << a << std::endl;
+  return 0;
+}
+```
+
 ## Types
 
 Like _C++_ there are basic primitive types :
