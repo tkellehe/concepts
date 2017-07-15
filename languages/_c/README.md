@@ -26,21 +26,23 @@ int main(void)
 }
 ```
 
+## Types
+
+Like _C++_ there are basic primitive types where each type is represented as a specific token.
+
 ## Declaring Variables
 
-In order to make __c_ closer code golfing, there are a preset number of variables.
-
 ```
-ȥ-7ñ
+ȥ-7
 ```
 
-The `ȥ` instantiates a new `intX` type which wilil be assigned the value following the token. The name of the variable
-is selected based off of the next available variable name. The `ñ` prints what is provided which since nothing is provided
-infers the most recent declared variable.
+The `ȥ` instantiates a new `intV` type which will be assigned the value following the token. The name of the variable
+is selected based off of the next available variable name. Since nothing is done with the value __c_ will infer that
+it needs to print the declared variable.
 
 ```
 #include <iostream>
-typedef long long int intX;
+typedef long long int intV;
 
 int main(void)
 {
@@ -49,17 +51,3 @@ int main(void)
   return 0;
 }
 ```
-
-## Types
-
-Like _C++_ there are basic primitive types :
- - char
- - unsigned char
- - bool
- - short
- - unsigned short
- - int
- - unsigned int
- - float
-
-Some are missing from the list, but you get the picture. For __c_, there is fixed size types as well as some others.
