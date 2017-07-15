@@ -46,23 +46,40 @@ int main(void)
 
 Like _C++_ there are basic primitive types where each type is represented as a specific token.
 
+Primitive types:
+
+ * `ȥ` : Variable sized integer type where the size is selected by the compiler (type `iv`).
+ * `ʋ` : Variable sized unsigned integer type where the size is selected by the compiler (type `uv`).
+ * `ƒ` : Variable sized floating point type where the size is selected by the compiler (type `fv`).
+ * `ƈ` : Fixed sized type representing a `char` in _C++_ (type `i8`).
+ * `ɓ` : A Boolean type representing a `bool` in _C++_ (type `bl`).
+
+Built in structures:
+ 
+ * `ʂ` : A String type representing a `std::string` in _C++_ (type `st`).
+ * `Ȥ` : A vector of `iv` objects (type `vi`).
+ * `Ʋ` : A vector of `uv` objects (type `vu`).
+ * `Ƒ` : A vector of `fv` objects (type `vf`).
+ * `Ƈ` : A vector of `i8` objects (type `v8`).
+ * `Ɓ` : A vector of `bl` objects (type `vb`).
+
 ## Declaring Variables
 
 ```
 ȥ-7
 ```
 
-The `ȥ` instantiates a new `intV` type which will be assigned the value following the token. The name of the variable
+The `ȥ` instantiates a new `iv` type which will be assigned the value following the token. The name of the variable
 is selected based off of the next available variable name. Since nothing is done with the value, _\_c_ will infer that
 it needs to print the declared variable.
 
 ```
 #include <iostream>
-typedef long long int intV;
+typedef long long int iv;
 
 int main(void)
 {
-  intV a = -7;
+  iv a = -7;
   std::cout << a << std::endl;
   return 0;
 }
