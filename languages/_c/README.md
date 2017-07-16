@@ -85,24 +85,13 @@ which translates to the letters without the dots beneath the character:
 ABDEHIKLMNORSTUVWYZ
 ```
 
-## Declaring Functions
-
-Each line is a function, where the last line is `main`. The function can be named explicitly like variables
-or the name is selected to be the first available letter.
-
-```
-
-
-```
-
-
 ```
 ȥ-7
 ```
 
 The `ȥ` instantiates a new `iv` type which will be assigned the value following the token. The name of the variable
-is selected based off of the next available variable name. Since nothing is done with the value, _\_c_ will infer that
-it needs to print the declared variable.
+is selected based off of the next available variable name for the given context. Since nothing is done with the value,
+_\_c_ will infer that it needs to print the declared variable.
 
 ```
 #include <iostream>
@@ -115,3 +104,36 @@ int main(void)
   return 0;
 }
 ```
+
+## Pointers
+
+## Declaring Functions
+
+Each line is a function, where the last line is `main`. The function can be named explicitly like variables
+or the name is selected to be the first available letter. The token `ɼ` represents what is to be returned.
+To invoke a function merely use its dereferenced version (the lowercase letter with the dot below).
+
+```
+ạƒɼʋ5 // Declares a function `a` that returns the value `5` as a `uv` type.
+ạ     // Invokes the function and infers to print the result.
+```
+
+```
+#include <iostream>
+typedef unsigned long long int uv;
+
+uv a()
+{
+  return uv(5);
+}
+
+int main(void)
+{
+  std::cout << a() << std::endl;
+  return 0;
+}
+
+```
+
+The type of the object that is being returned by the `ɼ` token is what type the function will return.
+
