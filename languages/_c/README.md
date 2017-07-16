@@ -50,7 +50,7 @@ Primitive types:
 
  * `ȥ` : Variable sized integer type where the size is selected by the compiler (type `iv`).
  * `ʋ` : Variable sized unsigned integer type where the size is selected by the compiler (type `uv`).
- * `ƒ` : Variable sized floating point type where the size is selected by the compiler (type `fv`).
+ * `ɗ` : Variable sized floating point type where the size is selected by the compiler (type `fv`).
  * `ƈ` : Fixed sized type representing a `char` in _C++_ (type `i8`).
  * `ɓ` : A Boolean type representing a `bool` in _C++_ (type `bl`).
 
@@ -59,7 +59,7 @@ Built in structures:
  * `ʂ` : A String type representing a `std::string` in _C++_ (type `st`).
  * `Ȥ` : A vector of `iv` objects representing a `std::vector<iv>` in _C++_ (type `vi`).
  * `Ʋ` : A vector of `uv` objects representing a `std::vector<uv>` in _C++_ (type `vu`).
- * `Ƒ` : A vector of `fv` objects representing a `std::vector<fv>` in _C++_ (type `vf`).
+ * `Ɗ` : A vector of `fv` objects representing a `std::vector<fv>` in _C++_ (type `vf`).
  * `Ƈ` : A vector of `i8` objects representing a `std::vector<i8>` in _C++_ (type `v8`).
  * `Ɓ` : A vector of `bl` objects representing a `std::vector<bl>` in _C++_ (type `vb`).
 
@@ -83,6 +83,16 @@ These variables represent the dereferenced version of the following characters:
 which translates to the letters without the dots beneath the character:
 ```
 ABDEHIKLMNORSTUVWYZ
+```
+
+## Declaring Functions
+
+Each line is a function, where the last line is `main`. The function can be named explicitly like variables
+or the name is selected to be the first available letter.
+
+```
+
+
 ```
 
 
