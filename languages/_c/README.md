@@ -66,16 +66,25 @@ Built in structures:
 ## Declaring Variables
 
 Declaring variables in _\_c_ is done by first listing the type then the variable name which can be any of the following characters:
-
 ```
 ạḅḍẹḥịḳḷṃṇọṛṣṭụṿẉỵẓ
 ```
 
 which translates to the letters without the dots beneath the character:
-
 ```
 abdehiklmnorstuvwyz
 ```
+
+These variables represent the dereferenced version of the following characters:
+```
+ẠḄḌẸḤỊḲḶṂṆỌṚṢṬỤṾẈỴẒ
+```
+
+which translates to the letters without the dots beneath the character:
+```
+ABDEHIKLMNORSTUVWYZ
+```
+
 
 ```
 ȥ-7
