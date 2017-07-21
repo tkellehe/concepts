@@ -25,3 +25,4 @@ therein still providing a large number of single __character__ __tokens__ that o
 * Change meaning of __command__ based off of __type__ of __state__ acting upon.
 * Do not add __commands__ that other __commands__ can do unless it does it in fewer bytes.
 * Remove duplicate functionality between __commands__ to not waist __tokens__ (still must follow other properties though).
+* Change functionality of __commands__ that have no affect ie `+-` could be inferred to mean `+.-`.
