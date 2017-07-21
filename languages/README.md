@@ -26,3 +26,4 @@ therein still providing a large number of single __character__ __tokens__ that o
 * Do not add __commands__ that other __commands__ can do unless it does it in fewer bytes.
 * Remove duplicate functionality between __commands__ to not waist __tokens__ (still must follow other properties though).
 * Change functionality of a sequence of __commands__ that have no affect ie `+-` could be inferred to mean `+.-` for _brainf\_ck_.
+  * Note: This may hurt source restriction challenges.
