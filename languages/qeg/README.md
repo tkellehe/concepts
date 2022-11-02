@@ -1,5 +1,26 @@
 # Quantum Esoteric Golfing (QEG) Language
 
+## Quantum Approximate Tensor Software (QATS)
+
+Approximating tensor product sums and multiplications is a library (QATS) I have been working on privately.
+The main reason why this library has a chance of working is with this concept.
+The software takes advantage of maximizing the most probable tensor product which means it may not have the exact probability for the answer, but testing has shown that the answer is produced (especially as the number of tensor product terms are used).
+
+## Qubit Count
+
+The number of qubits will grow to whatever index is attempted to be accessed.
+
+## Classical Code Lines and Quantum Circuit Lines
+
+The first line in the program will be the _"main"_ of the program.
+Each line is either a _Classical Code Line_ (CC line) or a _Quantum Circuit Line_ (QC line).
+A _Classical Code Line_ can either call to another CC line or a QC line.
+A _Quantum Circuit Line_ can only call to another QC line.
+
+The concept is to use the CC lines to generate variables that the QC lines can use.
+Then to process in CC lines the current state of the qubits as either some output or another input.
+Therein, CC lines are merely a chain of variable assignments and calls to QC lines.
+
 ## Variables
 
 Variables are only of type list.
