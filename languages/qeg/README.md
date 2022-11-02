@@ -1,5 +1,29 @@
 # Quantum Esoteric Golfing (QEG) Language
 
+## Variables
+
+Variables are only of type list.
+Each variable can only hold a list of the same type.
+There are only a finite set of variables.
+
+Variables can be explicitly acted on, or implicitly.
+Implicit actions either involve the next unused variable or the last used variable progressing alphabetically.
+
+Inputs into the program are automatically assigned to available variables which means it can offset the implicit variables.
+
+### List
+
+Lists are important when generating indexes for qubits to complete circuits on.
+Therein, BigInt is very common to be the type contained in the list.
+
+### BigInt
+
+### FixedPoint
+
+### BitStream
+
+### MultiBitStream
+
 ## Encoding
 
 |         | \_0  | \_1  | \_2  | \_3  | \_4  | \_5  | \_6  | \_7  | \_8  | \_9  | \_a  | \_b  | \_c  | \_d  | \_e  | \_f  |
