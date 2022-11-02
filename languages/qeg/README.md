@@ -4,11 +4,13 @@
 
 Approximating tensor product sums and multiplications is a library (QATS) I have been working on privately.
 The main reason why this library has a chance of working is with this concept.
-The software takes advantage of maximizing the most probable tensor product which means it may not have the exact probability for the answer, but testing has shown that the answer is produced (especially as the number of tensor product terms are used).
+The software takes advantage of maximizing the most probable tensor product which means it may not have the exact probability for the answer, but testing has shown that the answer is produced (especially as the number of tensor product terms are increased).
+This means the language potentially can have very large number of qubits.
 
-## Qubit Count
+## Qubits
 
 The number of qubits will grow to whatever index is attempted to be accessed.
+The default value for a quint is always the zero state.
 
 ## Classical Code Lines and Quantum Circuit Lines
 
@@ -39,11 +41,29 @@ Therein, BigInt is very common to be the type contained in the list.
 
 ### BigInt
 
+Can be an integer that grows the number of bits to properly represent the value.
+
 ### FixedPoint
 
-### BitStream
+Will grow to the appropriate number of bits for the integer part, but will require specifying the number of _"decimal"_ places.
 
-### MultiBitStream
+### Bit
+
+A single one or zero and can be compressed to another type or other types decompressed to it.
+
+### SuperPositionBit
+
+A single one, zero, or `*` which means either a one or zero.
+It can be converted to a bit before converting to another type.
+There are different algorithms for converting it.
+This ranges from either assuming all zeros, randomly picking, or even selecting based off of some criteria.
+
+## Examples
+
+### Hadamard
+
+```
+```
 
 ## Encoding
 
