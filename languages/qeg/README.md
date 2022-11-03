@@ -95,7 +95,14 @@ Therein, it will print random ones and zeros because all states are equally like
 This program only applies it to 64 qubits explicitly.
 
 ```
-a°ḢabṂ
+a°ḢabṂṢb
+```
+
+```
+a°       # assign "a" to be [0,...,63]
+  Ḣa     # pass "a" to the Hadamard gate
+    bṂ   # assign "b" to be list of random 64 bits
+      Ṣb # show "b" to the screen
 ```
 
 ## Encoding
