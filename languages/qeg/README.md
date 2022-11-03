@@ -47,6 +47,10 @@ Can be an integer that grows the number of bits to properly represent the value.
 
 Will grow to the appropriate number of bits for the integer part, but will require specifying the number of _"decimal"_ places.
 
+### ComplexNumber
+
+
+
 ### Bit
 
 A single one or zero and can be compressed to another type or other types decompressed to it.
@@ -87,6 +91,8 @@ Therein, it will print all `*`s because all states are equally likely based on Q
 ```
 ḢṂ
 ```
+
+
 
 ## Encoding
 
