@@ -92,7 +92,9 @@ Therein, it will print all `*`s because all states are equally likely based on Q
 ḢṂ
 ```
 
-
+```
+°ḢỌ
+```
 
 ## Encoding
 
