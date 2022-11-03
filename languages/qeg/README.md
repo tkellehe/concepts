@@ -84,16 +84,18 @@ This is then assigned to the variable `a`.
 
 Since the the qubits we're not allocated yet, they are started in the zero state.
 Then we apply the Hadamard gate putting the qubits in a superposition.
-The `Ṃ` measures the qubits using the QATS concept generating a SuperpositonBit list into `b`, the next available variable.
+The `Ṃ` measures the qubits using the QATS concept generating a Bit list into `b`, the next available variable.
 The program then default prints what was assigned to the last variable if nothing was printed.
-Therein, it will print all `*`s because all states are equally likely based on QATS best guess.
+Therein, it will print random ones and zeros because all states are equally likely based on QATS best guess.
 
 ```
 ḢṂ
 ```
 
+This program only applies it to 64 qubits explicitly.
+
 ```
-°ḢỌ
+a°ḢabṂ
 ```
 
 ## Encoding
@@ -115,7 +117,7 @@ Therein, it will print all `*`s because all states are equally likely based on Q
   **c\_** | `ġ` | `ḣ` | `ŀ` | `ṁ` | `ṅ` | `ȯ` | `ṗ` | `ṙ` | `ṡ` | `ṫ` | `ẇ` | `ẋ` | `ẏ` | `ż` | `Ɓ` | `Ƈ` |
   **d\_** | `Ɗ` | `Ƒ` | `Ɠ` | `Ƙ` | `Ɲ` | `Ƥ` | `Ƭ` | `Ʋ` | `Ȥ` | `ɓ` | `ƈ` | `ɗ` | `ƒ` | `ɠ` | `ƙ` | `ɲ` |
   **e\_** | `ƥ` | `ƭ` | `ʋ` | `ȥ` | `«` | `»` | `‘` | `’` | `“` | `”` | `ɦ` | `ɱ` | `ʠ` | `ɼ` | `ʂ` | `¦` |
-  **f\_** | `©` | `®` | `Æ` | `Ç` | `Ñ` | `Ø` | `Þ` | `æ` | `ç` | `ñ` | `ø` | `þ` | `ı` | `ȷ` | `¤` | `½ ` |
+  **f\_** | `©` | `®` | `Æ` | `Ç` | `Ñ` | `Ø` | `Þ` | `æ` | `ç` | `ñ` | `ø` | `þ` | `ı` | `ȷ` | `¤` | `½` |
 
 All characters together as a block:
 
