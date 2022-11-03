@@ -58,11 +58,34 @@ It can be converted to a bit before converting to another type.
 There are different algorithms for converting it.
 This ranges from either assuming all zeros, randomly picking, or even selecting based off of some criteria.
 
-## Examples
+## Naming Conventions
+
+QC bytes used in CC lines will have the dot on top.
+CC bytes used in CC lines will have the dot on the bottom.
+
+If a command is present and has a dot at the bottom, the line is assumed to be CC.
+All other commands can have multiple meanings.
+
+## Tutorials and Examples
 
 ### Hadamard
 
+The first line is always interpreted as a CC line.
+We can invoke the Hadamard gate on the default generated qubit assignments.
+The `Ḣ` takes a list of qubit indexes and applied the Hadamard gate to them.
+Since a variable is not provided, it assumes the last used variable.
+However, that variable has not been assigned.
+Therein, it will automatically generate a list of 64 qubit indexes starting at zero.
+This is then assigned to the variable `a`.
+
+Since the the qubits we're not allocated yet, they are started in the zero state.
+Then we apply the Hadamard gate putting the qubits in a superposition.
+The `Ṃ` measures the qubits using the QATS concept generating a SuperpositonBit list into `b`, the next available variable.
+The program then default prints what was assigned to the last variable if nothing was printed.
+Therein, it will print all `*`s because all states are equally likely based on QATS best guess.
+
 ```
+ḢṂ
 ```
 
 ## Encoding
