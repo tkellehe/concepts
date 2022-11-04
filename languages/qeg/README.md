@@ -105,6 +105,12 @@ a°       # assign "a" to be [0,...,63]
       Ṣb # show "b" to the screen
 ```
 
+### Entanglement
+
+```
+Ċ
+```
+
 ## Encoding
 
 |         | \_0  | \_1  | \_2  | \_3  | \_4  | \_5  | \_6  | \_7  | \_8  | \_9  | \_a  | \_b  | \_c  | \_d  | \_e  | \_f  |
