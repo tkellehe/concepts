@@ -105,10 +105,22 @@ a°       # assign "a" to be [0,...,63]
       Ṣb # show "b" to the screen
 ```
 
-### Entanglement
+### Control Not
 
 ```
-²2ĊṂ
+²1ĊṂ
+```
+
+```
+a²b1aĊabcṂṢc
+```
+
+```
+a²           # assign "a" to be [0,...,15]
+  b1a        # assign "b" to be "a" offset by the max of "a" +1 [16,...,31]
+     Ċab     # assign all bits to be CX where "a" is control and "b" is target.
+        cṂ   # assign "c" to be list of 32 bits
+          Ṣc # show "c" to screen
 ```
 
 ## Encoding
