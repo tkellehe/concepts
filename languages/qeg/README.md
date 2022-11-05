@@ -105,10 +105,36 @@ a°       # assign "a" to be [0,...,63]
       Ṣb # show "b" to the screen
 ```
 
-### Control Not
+### Control-Not
+
+The simplest control gate is the control-not gate.
+It takes two lists, where it applies the target
+If the variable for the target has not been assigned, then it will automatically be assigned to the next size.
+If the variable for the control has not been assigned, then it will generate a list of 64 indexes.
+The first parameter is the control and the second is the target.
 
 ```
-²1ĊṂ
+ĊṂ
+```
+
+Explicit version.
+
+```
+a°b1aĊabcṂṢc
+```
+
+```
+a°           # assign "a" to be [0,...,63]
+  b1a        # assign "b" to be "a" offset by the max of "a" +1 [64,...,127]
+     Ċab     # assign all bits to be CX where "a" is control and "b" is target
+        cṂ   # assign "c" to be list of 128 bits
+          Ṣc # show "c" to screen
+```
+
+Here is the 16-bit version.
+
+```
+²ĊṂ
 ```
 
 ```
@@ -118,7 +144,7 @@ a²b1aĊabcṂṢc
 ```
 a²           # assign "a" to be [0,...,15]
   b1a        # assign "b" to be "a" offset by the max of "a" +1 [16,...,31]
-     Ċab     # assign all bits to be CX where "a" is control and "b" is target.
+     Ċab     # assign all bits to be CX where "a" is control and "b" is target
         cṂ   # assign "c" to be list of 32 bits
           Ṣc # show "c" to screen
 ```
