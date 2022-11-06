@@ -28,6 +28,7 @@ Therein, CC lines are merely a chain of variable assignments and calls to QC lin
 Variables are only of type list.
 Each variable can only hold a list of the same type.
 There are only a finite set of variables.
+(Inputs may need to be separate call such that can place into variables in the correct order)
 
 Variables can be explicitly acted on, or implicitly.
 Implicit actions either involve the next unused variable or the last used variable progressing alphabetically.
