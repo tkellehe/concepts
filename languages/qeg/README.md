@@ -157,6 +157,9 @@ a²           # assign "a" to be [0,...,15]
 |  Symbol  | Description | Syntax |
 |:--------:|:------------|:------:|
 | `°` | Assign the next available variable to the list `[0,...,63]`. | __{var}__`°` |
+| `¹` | Assign the next available variable to the list `[0,...,31]`. | __{var}__`¹` |
+| `²` | Assign the next available variable to the list `[0,...,15]`. | __{var}__`²` |
+
 
 ## Encoding
 
