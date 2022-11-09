@@ -152,9 +152,11 @@ a²           # assign "a" to be [0,...,15]
 
 ## Commands
 
+### Quick List Assignments
+
 |  Symbol  | Description | Syntax |
 |:--------:|:------------|:------:|
-| `°` | | __{var}__`°` |
+| `°` | Assign the next available variable to the list `[0,...,63]`. | __{var}__`°` |
 
 ## Encoding
 
