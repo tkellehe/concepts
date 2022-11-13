@@ -77,13 +77,13 @@ All other commands can have multiple meanings.
 
 The first line is always interpreted as a CC line.
 We can invoke the Hadamard gate on the default generated qubit assignments.
-The `Ḣ` takes a list of qubit indexes and applied the Hadamard gate to them.
-Since a variable is not provided, it assumes the last used variable.
+The `Ḣ` takes a list of qubit indexes and applies the Hadamard gate to them.
+Since a variable is not provided, it assumes the last assigned variable.
 However, that variable has not been assigned.
 Therein, it will automatically generate a list of 64 qubit indexes starting at zero.
 This is then assigned to the variable `a`.
 
-Since the the qubits we're not allocated yet, they are started in the zero state.
+Since the the qubits were not allocated yet, they are started in the zero state.
 Then we apply the Hadamard gate putting the qubits in a superposition.
 The `Ṃ` measures the qubits using the QATS concept generating a Bit list into `b`, the next available variable.
 The program then default prints what was assigned to the last variable if nothing was printed.
@@ -93,7 +93,7 @@ Therein, it will print random ones and zeros because all states are equally like
 ḢṂ
 ```
 
-This program only applies it to 64 qubits explicitly.
+This program applies it to 64 qubits explicitly.
 
 ```
 a°ḢabṂṢb
@@ -160,6 +160,13 @@ a²           # assign "a" to be [0,...,15]
 | `¹` | Assign the next available variable to the list `[0,...,31]`. | __{var}__`¹` |
 | `²` | Assign the next available variable to the list `[0,...,15]`. | __{var}__`²` |
 
+### Relative Last Assignments
+
+|  Symbol  | Description | Syntax |
+|:--------:|:------------|:------:|
+| `0` | Assign the next available variable to the list the previous list offset by max but half size. | __{var}__`0`__{var}__ |
+| `1` | | __{var}__`1`__{var}__ |
+| `2` | | __{var}__`2`__{var}__ |
 
 ## Encoding
 
