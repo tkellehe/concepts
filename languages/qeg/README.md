@@ -154,19 +154,19 @@ a²           # assign "a" to be [0,...,15]
 
 ### Quick List Assignments
 
-|  Symbol  | Description | Syntax |
-|:--------:|:------------|:------:|
-| `°` | Assign the next available variable to the list `[0,...,63]`. | __{var}__`°` |
-| `¹` | Assign the next available variable to the list `[0,...,31]`. | __{var}__`¹` |
-| `²` | Assign the next available variable to the list `[0,...,15]`. | __{var}__`²` |
+|  Symbol  | Description | Syntax | Example | Example Output |
+|:--------:|:------------|:------:|:-------:|:--------------:|
+| `°` | Assign the next available variable to the list `[0,...,63]`. | __{var}__`°` | | |
+| `¹` | Assign the next available variable to the list `[0,...,31]`. | __{var}__`¹` | | |
+| `²` | Assign the next available variable to the list `[0,...,15]`. | __{var}__`²` | | |
 
 ### Relative Last Assignments
 
-|  Symbol  | Description | Syntax |
-|:--------:|:------------|:------:|
-| `0` | Assign the next available variable to the list the previous list offset by max but half size. | __{var}__`0`__{var}__ |
-| `1` | | __{var}__`1`__{var}__ |
-| `2` | | __{var}__`2`__{var}__ |
+|  Symbol  | Description | Syntax | Example | Example Output |
+|:--------:|:------------|:------:|:-------:|:--------------:|
+| `0` | Assign the next available variable to the list the previous list offset by max but half size. | __{var}__`0`__{var}__ | | |
+| `1` | | __{var}__`1`__{var}__ | | |
+| `2` | | __{var}__`2`__{var}__ | | |
 
 ## Encoding
 
